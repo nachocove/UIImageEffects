@@ -1,4 +1,3 @@
-UIImageEffects
-==============
+To build, type "make".
 
-Apple library to blur images
+UIImageEffects is Apple's library to blur images.

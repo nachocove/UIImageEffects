@@ -21,3 +21,5 @@ DerivedData
 
 #CocoaPods
 Pods
+UIImageEffectsLib/libUIImageEffectsLib-armv7.a
+UIImageEffectsLib/libUIImageEffectsLib-i386.a

@@ -41,14 +41,16 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
   <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingNativeLibrary Include="..\..\UIImageEffectsLib\libUIImageEffectsLibSDK.a">
+      <Link>libUIImageEffectsLibSDK.a</Link>
+    </ObjcBindingNativeLibrary>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="libUIImageEffectsLibSDK.linkwith.cs">
       <DependentUpon>libUIImageEffectsLibSDK.a</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libUIImageEffectsLibSDK.a" />
-  </ItemGroup>
-  <ItemGroup>
-    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
   </ItemGroup>
 </Project>
