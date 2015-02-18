@@ -25,3 +25,4 @@ UIImageEffectsLib/libUIImageEffectsLib-armv7.a
 UIImageEffectsLib/libUIImageEffectsLib-i386.a
 UIImageEffectsBinding/UIImageEffectsBinding.userprefs
 UIImageEffectsLib/libUIImageEffectsLibSDK.a
+UIImageEffectsLib/libUIImageEffectsLib-arm64.a

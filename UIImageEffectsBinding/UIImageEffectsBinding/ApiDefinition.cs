@@ -1,7 +1,7 @@
 using System;
-using MonoTouch.ObjCRuntime;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using ObjCRuntime;
+using Foundation;
+using UIKit;
 
 namespace UIImageEffectsBinding {
 
